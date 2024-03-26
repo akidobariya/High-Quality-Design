@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home-Digital Product Store</title>
+
+    <!-- Latest compiled and minified CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>    
+
+    <!-- FAFA 6 link ( Letest Version )-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+    <!-- CSS File Connect -->
+    <link rel="stylesheet" href="ab.css">
+</head>
+<body onload="myFunction()">
+
+        
+    <!--    Preloader Start    -->
+
+
+<div id="loader">
+    <svg xmlns="http://www.w3.org/2000/svg" height="200px" width="200px" viewBox="0 0 200 200" class="pencil">
+        <defs>
+            <clipPath id="pencil-eraser">
+                <rect height="30" width="30" ry="5" rx="5"></rect>
+            </clipPath>
+        </defs>
+        <circle transform="rotate(-113,100,100)" stroke-linecap="round" stroke-dashoffset="439.82" stroke-dasharray="439.82 439.82" stroke-width="2" stroke="currentColor" fill="none" r="70" class="pencil__stroke"></circle>
+        <g transform="translate(100,100)" class="pencil__rotate">
+            <g fill="none">
+                <circle transform="rotate(-90)" stroke-dashoffset="402" stroke-dasharray="402.12 402.12" stroke-width="30" stroke="hsl(223,90%,50%)" r="64" class="pencil__body1"></circle>
+                <circle transform="rotate(-90)" stroke-dashoffset="465" stroke-dasharray="464.96 464.96" stroke-width="10" stroke="hsl(223,90%,60%)" r="74" class="pencil__body2"></circle>
+                <circle transform="rotate(-90)" stroke-dashoffset="339" stroke-dasharray="339.29 339.29" stroke-width="10" stroke="hsl(223,90%,40%)" r="54" class="pencil__body3"></circle>
+            </g>
+            <g transform="rotate(-90) translate(49,0)" class="pencil__eraser">
+                <g class="pencil__eraser-skew">
+                    <rect height="30" width="30" ry="5" rx="5" fill="hsl(223,90%,70%)"></rect>
+                    <rect clip-path="url(#pencil-eraser)" height="30" width="5" fill="hsl(223,90%,60%)"></rect>
+                    <rect height="20" width="30" fill="hsl(223,10%,90%)"></rect>
+                    <rect height="20" width="15" fill="hsl(223,10%,70%)"></rect>
+                    <rect height="20" width="5" fill="hsl(223,10%,80%)"></rect>
+                    <rect height="2" width="30" y="6" fill="hsla(223,10%,10%,0.2)"></rect>
+                    <rect height="2" width="30" y="13" fill="hsla(223,10%,10%,0.2)"></rect>
+                </g>
+            </g>
+            <g transform="rotate(-90) translate(49,-30)" class="pencil__point">
+                <polygon points="15 0,30 30,0 30" fill="hsl(33,90%,70%)"></polygon>
+                <polygon points="15 0,6 30,0 30" fill="hsl(33,90%,50%)"></polygon>
+                <polygon points="15 0,20 10,10 10" fill="hsl(223,10%,10%)"></polygon>
+            </g>
+        </g>
+    </svg>
+    
+</div>
+
+<div style="display:none;" id="myDiv" class="animate-bottom">
+
+    
+                                                                    <!--    Preloader End    -->
+
+
+
+                        <!--    Scroll Back To Top Button    -->
+
+            <a href="#"><button class="my scroll-element" title="Go to top">Top</button></a>
+
+                        
+            <!--     Navbar Start   -->
+        
+        
+<div style="background-color: #f5fdff;">
+
+    <nav class="navbar navbar-expand-sm mt-2 mb-2" style="background-color: #f5fdff;">
+        <div class="container">
+            <a href="index.html">
+                <img src="img/101.svg" class="rounded me-5 ms-3 zoom" alt="Cinque Terre">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link ms-3 mt-5 mt-md-0 text-danger zoom" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link ms-3 clr2 zoom" href="resources.html">Resources</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link ms-3 clr2 zoom" href="premium.html">Premium</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link ms-3 clr2 zoom" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link ms-3 clr2 zoom" href="contact.html">Contact</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ms-auto p-0">
+                <li class="nav-item">
+                  <a class="nav-link text-body" href="#"><i class="fa fa-user ms-3" aria-hidden="true" style="font-size: 18px;"></i> <i class="fa-solid fa-bag-shopping ms-3" style="font-size: 20px;"></i></a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+                                                                                <!--     Navbar End     -->
+
+                                                                                
+            <!--     Page 1 Start   -->
+
+
+    <div class="container" >
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-7 p-3 p-md-5">
+                    <!-- <div style="height: 4vh;"></div> -->
+                    <p class="mt-0 mt-md-5 ms-3 ms-md-0" style="font-size: 5vw;"><b>High Quality <br>Design Resources <br>by Mark Ray</b></p>
+                    <span style="font-size: 18px;"><i class="fa-brands fa-figma me-3 ms-3 ms-md-0" style="font-size: 23px;"></i>Figma<i class="fa-solid fa-camera ms-5 me-3" style="font-size: 23px;"></i> Photoshop</span>
+
+                    <p class="mt-3 ms-3 ms-md-0" style="font-size: 16px;">Handcrafted free and premium Figma and Photoshop design <br>resources for your next digital product projects</p>
+                    <button type="button" class="btn btn-lg clr1 ms-3 ms-md-0 col-11 col-md-4 mt-3 mt-md-4 mb-4 scroll-element">Browse Everything</button><br>
+
+                    <div class="col-md-12 mt-5 scroll-element">
+                        <span class="ms-3 me-5 ms-md-0 me-md-5 pe-md-4" style="font-size: 25px;"><b>2M+</b></span>
+                        <span class="ms-5 me-5 ms-md-5 me-md-5 ps-md-5" style="font-size: 25px;"><b>150+</b></span>
+                        <span class="ms-5 me-5 ms-md-5 ps-md-5" style="font-size: 25px;"><b>4.9</b></span> <br>
+
+                        <span class="ms-3 me-4 pe-2 ms-md-0 me-md-0 pe-md-3 text-secondary" style="font-size: 16px;">Total Downloads</span>
+                        <span class="ms-2 me-4 pe-2 ms-md-5 me-md-4 pe-md-1 ps-md-5 text-secondary" style="font-size: 16px;">Design Resources</span>
+                        <span class="ms-0 me-0 ms-md-5 ps-md-0 text-secondary" style="font-size: 16px;">User Rating</span>
+                    </div>
+                </div>
+                <div class="col-md-5 p-0 p-md-3">
+                    <img src="img/102.jpg" class="mt-5 ms-5 ms-md-3 scroll-element" alt="Cinque Terre" style="border-radius: 30px;
+                    box-shadow: 10px 10px 0px 10px black;"><br><br><br><br>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+                                                                        <!--     Page 1 End     -->
+
+
+            <!--     Only Logo's    -->
+
+                
+            <div class="container">
+                <div class="col-md-12 mt-5">
+                    <div class="row">
+
+                        <div class="col-md-3">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-6 col-6 zoom">
+                                        <center><span class="border clr2 ">
+                                            <i class="fa-solid fa-mobile-screen-button p-3" style="font-size: 30px;"></i>
+                                        </center>
+                                        <center><p class="mt-1 zoom" style="cursor: pointer;">Apps</p></center>
+                                        </span>
+                                    </div>
+                                    <div class="col-md-6 col-6 zoom">
+                                        <center><span class="border clr2 ">
+                                            <i class="fa-solid fa-window-restore p-3" style="font-size: 30px;"></i>
+                                        </center>
+                                        <center><p class="mt-1 zoom" style="cursor: pointer;">Dashboard</p></center>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-6 col-6 zoom">
+                                        <center><span class="border clr2 ">
+                                            <i class="fa-solid fa-pager p-3" style="font-size: 30px;"></i>
+                                        </center>
+                                        <center><p class="mt-1 zoom" style="cursor: pointer;">Landing Pages</p></center>
+                                        </span>
+                                    </div>
+                                    <div class="col-md-6 col-6 zoom">
+                                        <center><span class="border clr2">
+                                            <i class="fa-solid fa-swatchbook p-3" style="font-size: 30px;"></i>
+                                        </center>
+                                        <center><p class="mt-1 zoom" style="cursor: pointer;">UI Kits</p></center>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-6 col-6 zoom">
+                                        <center><span class="border clr2">
+                                            <i class="fa-solid fa-pen-nib p-3" style="font-size: 30px;"></i>
+                                        </center>
+                                        <center><p class="mt-1 zoom" style="cursor: pointer;">Illustration</p></center>
+                                        </span>
+                                    </div>
+                                    <div class="col-md-6 col-6 zoom">
+                                        <center><span class="border clr2">
+                                            <i class="fa-solid fa-tablet p-3" style="font-size: 30px;"></i>
+                                        </center>
+                                        <center><p class="ms-2 zoom" style="cursor: pointer;">MouckUps</p></center>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-6 col-6 zoom">
+                                        <center><span class="border clr2">
+                                            <i class="fa-solid fa-icons p-3" style="font-size: 30px;"></i>
+                                        </center>
+                                        <center><p class="ms-2 zoom" style="cursor: pointer;">Icons</p></center>
+                                        </span>
+                                    </div>
+                                    <div class="col-md-6 col-6 zoom">
+                                        <center><span class="border clr2">
+                                            <i class="fa-solid fa-layer-group p-3" style="font-size: 30px;"></i>
+                                        </center>
+                                        <center><p class="ms-2 zoom" style="cursor: pointer;">Templates</p></center>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+                                                                            <!--    Only Logo's End    -->
+
+
+            <!--     Latest Resources Start   -->
+
+
+        <div style="height: 130px;"></div>
+
+        <div class="container">
+            <p style="font-size: 45px;" class="ms-2 ms-md-4 mb-5"><b>Latest Resources</b></p>
+
+            <div class="col-md-12 mt-4">
+                <div class="row">
+                    <div class="col-md-4 col-4">
+                        <img src="img/103.jpg" style="width: 27vw;cursor: pointer;" class="ms-2 ms-md-4 scroll-element">
+                        <center><p class="mt-3 mb-1 ms-3 ms-md-5 pb-0 clr2" style="font-size: 16px;"><b>Multi-Purpose eCommerce Template</b></p>
+                        <p class="ms-3 ms-md-5 pt-0 text-dark"><b>$29.00</b></p></center>
+                    </div>
+                    <div class="col-md-4 col-4">
+                        <img src="img/104.jpg" style="width: 27vw;cursor: pointer;" class="ms-1 ms-md-3 scroll-element">
+                        <center><p class="mt-3 mb-1 ms-2 ms-md-2 pb-0 clr2" style="font-size: 16px;"><b>Beauty Product Packaging Mockup</b></p>
+                            <p class="ms-2 ms-md-3 pt-0 text-dark"><b>$9.00</b></p></center>
+                    </div>
+                    <div class="col-md-4 col-4">
+                        <img src="img/105.jpg" style="width: 27vw;cursor: pointer;" class="scroll-element">
+                        <center><p class="mt-3 mb-1 ms-0 ms-md-0 pb-0 clr2" style="font-size: 16px;"><b>Daily Food App UI</b></p>
+                            <p class="ms-0 ms-md-0 pt-0 text-dark"><b>$14.00</b></p></center>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-12 mt-4">
+                <div class="row">
+                    <div class="col-md-4 col-4">
+                        <img src="img/106.jpg" style="width: 27vw;cursor: pointer;" class="ms-2 ms-md-4 scroll-element">
+                        <center><p class="mt-3 mb-1 ms-3 ms-md-5 pb-0 clr2" style="font-size: 16px;"><b>A3 Poster Frame Mockup</b></p>
+                        <p class="ms-3 ms-md-5 pt-0 text-dark"><b>$0.00</b></p></center>
+                    </div>
+                    <div class="col-md-4 col-4">
+                        <img src="img/107.jpg" style="width: 27vw;cursor: pointer;" class="ms-1 ms-md-3 scroll-element">
+                        <center><p class="mt-3 mb-1 ms-2 ms-md-3 pb-0 clr2" style="font-size: 16px;"><b>Wonderful Portfolio Landing Page</b></p>
+                            <p class="ms-2 ms-md-3 pt-0 text-dark"><b>$24.00</b></p></center>
+                    </div>
+                    <div class="col-md-4 col-4">
+                        <img src="img/108.jpg" style="width: 27vw;cursor: pointer;" class="scroll-element">
+                        <center><p class="mt-3 mb-0 ms-0 ms-md-0 pb-0 clr2" style="font-size: 16px;"><b>Blue Social Media Icons Set</b></p>
+                            <p class="ms-0 ms-md-0 pt-0 text-dark"><b>$9.00</b></p></center>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-12 mt-4">
+                <div class="row">
+                    <div class="col-md-4 col-4">
+                        <img src="img/109.jpg" style="width: 27vw;cursor: pointer;" class="ms-2 ms-md-4 scroll-element">
+                        <center><p class="mt-3 mb-1 ms-3 ms-md-5 pb-0 clr2" style="font-size: 16px;"><b>Ultimate Web Banner Template</b></p>
+                        <p class="ms-3 ms-md-5 pt-0 text-dark"><b>$19.00</b></p></center>
+                    </div>
+                    <div class="col-md-4 col-4">
+                        <img src="img/110.jpg" style="width: 27vw;cursor: pointer;" class="ms-1 ms-md-3 scroll-element">
+                        <center><p class="mt-3 mb-1 ms-2 ms-md-3 pb-0 clr2" style="font-size: 16px;"><b>Deem Analytics Dashboard UI</b></p>
+                            <p class="ms-2 ms-md-3 pt-0 text-dark"><b>$39.00</b></p></center>
+                    </div>
+                    <div class="col-md-4 col-4">
+                        <img src="img/111.jpg" style="width: 27vw;cursor: pointer;" class="scroll-element"> scroll-element
+                        <center><p class="mt-3 mb-1 ms-0 ms-md-0 pb-0 clr2" style="font-size: 16px;"><b>
+                            Messaging Mobile App UI</b></p>
+                            <p class="ms-0 ms-md-0 pt-0 text-dark"><b>$29.00</b></p></center>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-12 mt-5 mb-5">
+            <center>
+                <button type="button" class="btn btn-outline-dark btn-lg ps-4 pe-4 scroll-element">View All Resources</button>
+            </center>
+        </div>
+
+
+                                                                    <!--     Latest Resources End   -->
+            <!--    Two Big Box Figma & Photoshop Start   -->
+
+
+        <div class="container mt-5 mb-5">
+            <div class="col-md-12 p-3 p-md-5">
+                <div class="row">
+                    <div class="col-md-6 p-md-3 p-2">
+                        <div class="border1 scroll-element">
+                            <i class="fa-brands fa-figma me-3 ms-2 ms-md-0 text-dark p-3 p-md-5" style="font-size: 35px;"></i>
+                            <p class="ms-4 ms-md-5 mb-0" style="font-size: 28px;"><b>Figma resources</b></p>
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-10 col-10">
+                                        <p class="ms-4 ms-md-5 text-secondary" style="font-size: 15px;"><b>100+ design files</b></p>
+                                    </div>
+                                    <div class="col-md-2 col-2">
+                                        <i class="fa-solid fa-right-long" style="font-size: 25px;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 p-md-3 p-2">
+                        <div class="border1 scroll-element">
+                            <i class="fa-solid fa-camera me-3 ms-3 ms-md-0 text-dark p-3 p-md-5" style="font-size: 35px;"></i>
+                            <p class="ms-4 ms-md-5 mb-0" style="font-size: 28px;"><b>Photoshop resources</b></p>
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-10 col-10">
+                                        <p class="ms-4 ms-md-5 text-secondary" style="font-size: 15px;"><b>100+ design files</b></p>
+                                    </div>
+                                    <div class="col-md-2 col-2">
+                                        <i class="fa-solid fa-right-long" style="font-size: 25px;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+                                                                <!--    Two Big Box Figma & Photoshop End   -->
+
+
+        <!--      Templates Start    -->
+
+
+<div style="background-color: #f5fdff;">
+
+    <div class="container">
+        <span style="font-size: 22px;" class="ms-2 ms-md-4 mb-5"><b>Templates</b></span>
+        <span class="float-end clr2">View All</span>
+
+
+        <div class="col-md-12 mt-4">
+            <div class="row">
+                <div class="col-md-4 col-4">
+                    <img src="img/103.jpg" style="width: 27vw;cursor: pointer;" class="ms-2 ms-md-4 scroll-element">
+                    <center><p class="mt-3 mb-1 ms-3 ms-md-5 pb-0 clr2" style="font-size: 16px;"><b>Multi-Purpose eCommerce Template</b></p>
+                    <p class="ms-3 ms-md-5 pt-0 text-dark"><b>$29.00</b></p></center>
+                </div>
+                <div class="col-md-4 col-4">
+                    <img src="img/109.jpg" style="width: 27vw;cursor: pointer;" class="ms-1 ms-md-3 scroll-element">
+                    <center><p class="mt-3 mb-1 ms-2 ms-md-2 pb-0 clr2" style="font-size: 16px;"><b>Beauty Product Packaging Mockup</b></p>
+                        <p class="ms-2 ms-md-3 pt-0 text-dark"><b>$9.00</b></p></center>
+                </div>
+                <div class="col-md-4 col-4">
+                    <img src="img/112.jpg" style="width: 27vw;cursor: pointer;" class="scroll-element">
+                    <center><p class="mt-3 mb-1 ms-0 ms-md-0 pb-0 clr2" style="font-size: 16px;"><b>Daily Food App UI</b></p>
+                        <p class="ms-0 mb-5 ms-md-0 pt-0 text-dark"><b>$14.00</b></p></center>
+                </div>
+            </div>
+        </div>
+
+
+        <span style="font-size: 20px;" class="mt-5 ms-2 ms-md-4 mb-5"><b>MockUps</b></span>
+        <span class="float-end clr2">View All</span>
+
+
+        <div class="col-md-12 mt-4">
+            <div class="row">
+                <div class="col-md-4 col-4">
+                    <img src="img/104.jpg" style="width: 27vw;cursor: pointer;" class="ms-2 ms-md-4 scroll-element">
+                    <center><p class="mt-3 mb-1 ms-3 ms-md-5 pb-0 clr2" style="font-size: 16px;"><b>Multi-Purpose eCommerce Template</b></p>
+                    <p class="ms-3 ms-md-5 pt-0 text-dark"><b>$29.00</b></p></center>
+                </div>
+                <div class="col-md-4 col-4">
+                    <img src="img/106.jpg" style="width: 27vw;cursor: pointer;" class="ms-1 ms-md-3 scroll-element">
+                    <center><p class="mt-3 mb-1 ms-2 ms-md-2 pb-0 clr2" style="font-size: 16px;"><b>Beauty Product Packaging Mockup</b></p>
+                        <p class="ms-2 ms-md-3 pt-0 text-dark"><b>$9.00</b></p></center>
+                </div>
+                <div class="col-md-4 col-4">
+                    <img src="img/113.jpg" style="width: 27vw;cursor: pointer;" class="scroll-element">
+                    <center><p class="mt-3 mb-1 ms-0 ms-md-0 pb-0 clr2" style="font-size: 16px;"><b>Daily Food App UI</b></p>
+                        <p class="ms-0 mb-5 ms-md-0 pt-0 text-dark"><b>$14.00</b></p></center>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-12" style="height: 40px;"></div>
+
+</div>
+
+                                                                                <!-- Templates End -->
+
+        <!--    Premium Design Resources Start   -->
+
+    <div class="col-md-12" style="background-color: #241f33;">
+        <div class="container">
+            <div class="col-md-12 p-0">
+                <div class="row">
+                    <div class="col-md-6 p-4">
+                        <p class="mt-5 mt-md-5" style="font-size: 40px;color: white;"><b>Premium Design <br>Resource</b></p>
+                        <p class="mt-2 mt-md-3" style="font-size: 18px;color: white;">Vitae metus, porta convallis enim rhoncus, proin sit <br>praesent augue nec libero habitant bibendum</p>
+                        <button type="button" class="btn btn-outline-dark clr3 btn-lg mt-2 scroll-element">Browse Premium Files</button>
+                    </div>
+                    <div class="col-md-6 p-0" >
+                        <div class="backgroundimage1" style="height: 430px;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+                                                                        <!--    Premium Design Resources End   -->
+
+    <div class="col-md-12" style="height: 80px;"></div>
+
+
+            <!--    What people say Start   -->
+
+
+    <div class="col-md-12">
+        <center>
+            <p style="font-size: 45px;">What people say</p>
+        </center>
+    </div>
+
+    <div class="container">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-4 p-4 col-12">
+                    <div class="border1 p-0 scroll-element">
+                        <span class="ms-4 ms-md-4 mt-0 mt-md-0" style="font-size: 40px;">"</span>
+                        <p class="ms-4 ms-md-4 mt-0 mt-md-0 text-dark" style="font-size: 19px;">Quam sodales volutpat eget aliquet<br> massa urna risus faucibus turpis <br>malesuada nibh dictum elementum <br>ornare tristique.</p>
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-md-3 col-3">
+                                    <img src="img/115.jpg" class="ms-4 mb-3" style="border-radius: 8px;">            
+                                </div>
+                                <div class="col-md-9 col-9 p-0">
+                                    <p class="mb-0" style="font-size: 18px;"><b>Juliya Keys</b></p>
+                                    <p class="text-dark" style="font-size: 13px;">UI Designer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 p-4 col-12">
+                    <div class="border1 p-0 scroll-element">
+                        <span class="ms-4 ms-md-4 mt-0 mt-md-0" style="font-size: 40px;">"</span>
+                        <p class="ms-4 ms-md-4 mt-0 mt-md-0 text-dark" style="font-size: 19px;">Sed adipiscing adipiscing feugiat platea <br>egestas varius eget enim laoreet <br> pharetra, vulputate vitae elementum bibendum neque</p>
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-md-3 col-3">
+                                    <img src="img/116.jpg" class="ms-4 mb-3" style="border-radius: 8px;">            
+                                </div>
+                                <div class="col-md-9 col-9 p-0">
+                                    <p class="mb-0" style="font-size: 18px;"><b>Juliya Keys</b></p>
+                                    <p class="text-dark" style="font-size: 13px;">UI Designer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 p-4 col-12">
+                    <div class="border1 p-0 scroll-element">
+                        <span class="ms-4 ms-md-4 mt-0 mt-md-0" style="font-size: 40px;">"</span>
+                        <p class="ms-4 ms-md-4 mt-0 mt-md-0 text-dark" style="font-size: 19px;">Dui, ultrices odio ipsum morbi <br> sit semper nunc neque fames at <br>elit praesent purus molestie eget</p>
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-md-3 col-3">
+                                    <img src="img/117.jpg" class="ms-4 mb-3 mt-3" style="border-radius: 8px;">            
+                                </div>
+                                <div class="col-md-9 col-9 p-0">
+                                    <p class="mb-0 mt-3" style="font-size: 18px;"><b>Juliya Keys</b></p>
+                                    <p class="text-dark mb-4" style="font-size: 13px;">UI Designer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col-md-12" style="height: 80px;"></div>
+
+                                                                        <!--    What People Say End   -->
+
+
+        <!--    Don't Miss Out The Start.....     -->
+
+    
+<div style="background-color: #f5fdff;" class="p-0">
+
+    <div class="col-md-12" style="height: 30px;"></div>
+
+    <center>
+        <p class="mt-5" style="font-size: 40px;"><b>Don't miss out the latest design <br>resources</b></p>
+    </center>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <input type="email" placeholder="Enter Your Emial Address" class="col-md-9 col-11 ms-3 ms-md-0" style="height: 50px;border: none;">
+                    <button type="button" class="btn btn-lg clr1 col-md-2 col-11 mt-3 mt-md-0 ms-3 ms-md-0 scroll-element">Subscribe</button>
+                </div>  
+                <div class="col-md-3"></div>
+            </div>
+        </div>  
+
+    <div class="col-md-12" style="height: 70px;"></div>
+    
+</div>
+
+                                                                    <!--    Don't Miss Out The Start.....     -->
+
+                <!--    Start Footer     -->
+
+    <div class="col-md-12 p-4">
+        <div class="row">
+            <div class="col-md-3">
+                <center><img src="img/101.svg" class="scroll-element"></center>
+            </div>
+            <div class="col-md-6">
+                <center><p class="text-secondary mt-4 mt-md-0">© 2023 Digital Product Store | Powered by Digital Product Store</p></center>
+            </div>
+            <div class="col-md-3">
+                <center>
+                <i class="fa-brands fa-twitter mt-3 mt-md-0" style="font-size: 20px;"></i>
+                <i class="fa-solid fa-baseball ms-2" style="font-size: 20px;"></i>
+                <i class="fa-solid fa-globe ms-2" style="font-size: 20px;"></i>
+                </center>
+            </div>
+        </div>
+    </div>
+
+                                                                            <!--     Footer End     -->
+
+                                                                            
+</div>
+<script>
+    var myVar;
+    
+    function myFunction() {
+      myVar = setTimeout(showPage, 3000);
+    }
+    
+    function showPage() {
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("myDiv").style.display = "block";
+    }
+</script>
+
+</body>
+</html>
